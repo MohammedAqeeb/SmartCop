@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Accessories</title>
+</head>
+<link href="report.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+
+<img src="../../Unnamed Site 2/logo.jpg" alt="E-COP" width="374" height="200" style="width :200px height:200px">
+<body>
+<div class="navbar"><a href="#home">Home &nbsp;</a>
+  	<a href="#news"> News &nbsp;</a> 
+    
+    <!--<a href="#Elost">E-Lost Report</a>-->
+    
+    <div class="dropdown">
+   		 <button class="dropbtn">E-Lost Report 
+    		&nbsp; <i class="fa fa-caret-down"></i>
+   		 </button>
+      <div class="dropdown-content">
+      	<a href="access.html">Accesories</a>
+      	<a href="#">Bike</a>
+      	<a href="#">Car</a>
+      	<a href="#">Documents</a>
+      	<a href="#">Others</a>
+    </div>
+  </div> 
+	<a href="#Harse">Harrsements &nbsp;</a>
+    <a href="#fir">FIR &nbsp;</a>
+	<a href="#status">View Compliant Status &nbsp;</a>
+    <a href="#miss">Missing Persons &nbsp;</a>
+	<a href="#reward">Rewards &nbsp;</a>
+	<a href="#Logout">Logout &nbsp;</a>
+</div>
+ 
+<form action="access.php" method="post">
+
+	<center>
+
+		<p>
+		  <label for="name"><b><br>
+		    <br>
+		    <br>
+		    <br>
+	      Name</b> </label>
+		  <input type="name" placeholder="Enter Your Name" name="name">  <br>
+		  
+		  
+		  <label for="ID"> <br>
+		    <b>Select Type Lost:</b></label>
+		  <select name="Accessiores" required> 
+		    <br>
+		    <option Value="mobile">Android </option>
+		    <option Value="mobile">Iphone</option>
+		    <option Value="Laptop">Laptop</option> 
+		    <option Value="Watch">Watch</option>
+		    <option Value="Other">Any Other</option>
+		    <br>
+		    <input type="text" placeholder="Enter The Name Of Device" name="losts"><br>
+	      </select>
+		  
+		  <label for="address"><b><br>
+	      <br>
+	      Lost Place Address</b> </label>
+		  <input name="address" type="text" required placeholder="Enter Address Where You Lost"> <br>
+		  
+		  <label for="date"><b><br>
+	      Date </b> </label>
+		  <input name="date" type="date" required placeholder="Enter Date On which You Lost" max="2019-08-01" min=			               "2019-04-01">  <br>
+		  
+		  <label for="number"><b><br>
+	      Mobile Number</b> </label>
+		  <input name="mobile" type="number" required placeholder="Enter Mobile Number">  <br>
+		  
+		  <label for="addr"><b><br>
+	      Your Address </b> </label>
+		  <input type="text" placeholder="Enter Your Address" name="addr">  <br>
+	  </p>
+		<p>
+		  <input type="submit" name="submit">
+		  <br>
+	  </p>
+  </center>   
+</form>
+</body>
+</html>

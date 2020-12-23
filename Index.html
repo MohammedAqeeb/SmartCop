@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomePage Navigation</title>
+
+</head>
+
+<center>
+<img src="images/logo2 (3).jpg" alt="E-COP" width="499" height="299"  style="width :200px height:200px">
+</center>
+
+<link href="Index.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+<body>
+		
+
+	<div class="navbar">
+	
+    <a href="Home.php"> HOME &nbsp; &nbsp;</a>
+    
+    <div class="dropdown">
+   		 <button class="dropbtn">SIGNIN 
+    		&nbsp; &nbsp;<i class="fa fa-caret-down"></i>
+   		 </button>
+      <div class="dropdown-content">
+      	<a href="signin.html">User</a>
+      	<a href="psign.html">Police</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+   		 <button class="dropbtn">LOGIN
+    		&nbsp; &nbsp;<i class="fa fa-caret-down"></i>
+   		 </button>
+      <div class="dropdown-content">
+      	<a href="ulog.html">User</a>
+      	<a href="Plog.html">Police</a>
+        <a href="Admin/Alog.html">Admin</a>
+    
+    </div>
+  </div> 
+  		 <a onclick="myabout()">ABOUT</a>        
+	</div>              
+
+<script>
+function myabout() {
+    alert("\nSMART COP\n\n Project by MOHAMMED AQEEB\n\n Mail-ID: mohammedaqeeb19@gmail.com\n\n Phone No:9845676575\n\n JNNCE COLLEG MCA BRANCH \n\n A Mini Project For Advance Web Programming");
+}
+</script>
+
+</body>
+</html>

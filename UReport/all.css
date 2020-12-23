@@ -1,0 +1,108 @@
+body
+{	
+	margin: 70;
+	padding: 100;
+	background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+ 	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Nunito',san-serif;
+    background-position: center;
+}
+form
+{	
+	font-family: 'Nunito',san-serif;
+	width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+h3
+{
+	margin: 2% auto 10% auto;
+    text-align: center;
+	color:#3e403f;
+}
+p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #3e403f;
+}
+.all input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.all input[type="text"],
+.all input[type="number"],
+.all input[type="date"],
+.all input[type="textarea"],
+select
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #808080;
+	font-size: 16px;
+}
+
+::placeholder
+{
+	color: rgba(255,255,25 #02F72D5,.5);
+}
+.all input[type="submit"]
+{
+	border: none;
+	padding:19px 39px 18px 39px;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	text-align:center;
+	font-size: 16px;
+	background: #09F0DE;
+	cursor: pointer;
+	border-radius: 12px;
+}
+.all submit:hover
+{
+	background:#4bc970 ;
+	color: #262626;
+}
+/*.ulog a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*       Forgot Password button FAF3DD  */
+/*.frgt-pass {background: transparent;}
+
+/*     Sign Up button  */
+/*.logs {
+	background: #B8F2E6;
+	font-size: 12px;
+	border: none;
+	padding:14px 30px 15px 30px;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	text-align:center;
+	border-radius: 12px;
+}
+.logs a {
+	color: #646464;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
